@@ -161,7 +161,7 @@ background-color: var(--color);
 
 /******************** About Us and Offer *************/
 
-#aboutUs{
+#aboutUs, #offer{
     padding: 70px 0;
     display: flex;
     flex-wrap: wrap;
@@ -190,7 +190,7 @@ background-color: var(--color);
     color: #757575;
     font-style: italic;
 }
-
+#offer .btn{margin: 30px 0;}
 
 
 /******************** Features ***********************/
@@ -242,6 +242,28 @@ background-color: var(--color);
 
 
 /******************** Courses - Contact **************/
+#courses{
+    padding: 70px 0;
+    
+}
+.courses-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.courses-left, .courses-right{
+flex-basis: 50%;
+}
+
+.courses-content{
+    max-width: 400px;
+}
+.courses-content .btn{
+    margin: 30px 0;
+}
+
 
 /******************** Contact ************************/
 
