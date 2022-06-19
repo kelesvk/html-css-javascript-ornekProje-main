@@ -161,8 +161,86 @@ background-color: var(--color);
 
 /******************** About Us and Offer *************/
 
+#aboutUs{
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-left, .about-right{
+    flex-basis: 50%;
+}
+
+.about-left img{
+    border-radius: 50px;
+}
+.about-content{
+    max-width: 400px;
+    display: inline-block;
+}
+
+.about-content h2{
+    font-size: 18px;
+    margin: 50px 0 10px;
+    font-style: italic;
+}
+.about-content h3{
+    font-size: 20px;
+    color: #757575;
+    font-style: italic;
+}
+
+
+
 /******************** Features ***********************/
  
+#features{
+    padding: 70px 0 ;
+
+}
+.features-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+
+}
+
+.features-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.features-col img{
+    width: 100px;
+}
+
+.features-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.features-col p{
+    text-align: center;
+
+    
+}
+.features-btn{
+    margin: 80px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.features-btn .line{
+   text-align: right;
+   margin-right: 25px;
+}
+
+
+
 /******************** Courses - Contact **************/
 
 /******************** Contact ************************/
