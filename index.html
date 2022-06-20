@@ -34,12 +34,12 @@
     <!-- Side nav -->
     <nav id="sideNav">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">Offer</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#aboutUs">About Us</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#offer">Offer</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <img src="img/menu.png" alt="Menu" id="menuBtn">
     </nav> 
@@ -234,8 +234,19 @@
  
     <!-- Script --> 
     <script>
-     
-    </script>
+     let menuBtn=document.getElementById("menuBtn");
+     let sideNav=document.getElementById("sideNav");
+     sideNav.style.right="-250px";
+     menuBtn.onclick=function(){
+        if(sideNav.style.right==="-250px"){
+            sideNav.style.right="0px"
+
+        } else{
+            sideNav.style.right="-250px"
+        }
+     }
+   
+   </script>
     
 </div>
 </body>

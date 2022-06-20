@@ -347,12 +347,70 @@ flex-basis: 50%;
 @media only screen and (max-width: 700px) {
 
 /******************** General  **********************/
+h1{
+    font-size: 22px;
+}
+.btn{
+    padding: 10px 16px;
+}
+.container{
+    margin: 0px 45px;
+}
+
+
 
 /******************** Header ************************/
 
+#header{
+    height: 75vh;
+    background: none;
+
+
+}
+.logo{
+    width: 175px;
+    margin-top: 25px;
+   
+
+}
+#sideNav{
+    max-width: 200px;
+}
+#menuBtn{
+    width: 40px;
+    right: 20px;
+}
+
 /******************** About Us  *********************/
- 
+  .about-left, .about-right{
+    flex-basis: 100%;
+  }
+.about-content{
+    margin: 50px 20px 0;
+}
+
 /********* features, course, contact and footer ****************/
+.features-col{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+.courses-left, .courses-right,
+.contact-left, .contact-right,
+.footer-left, .footer-right{
+    flex-basis: 100%;
+}
+.courses-left, .courses-right{
+    margin-top: 75px;
+
+}
+#courses img{
+    display:none;
+}
+.link-title{
+    flex-basis: 50%;
+    margin-bottom: 30px;
+}
+
 
 /******************** Social Icons ******************/  
 
