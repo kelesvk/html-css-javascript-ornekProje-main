@@ -242,18 +242,18 @@ background-color: var(--color);
 
 
 /******************** Courses - Contact **************/
-#courses{
+#courses, #contact{
     padding: 70px 0;
     
 }
-.courses-row{
+.courses-row, .contact-row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 
 }
 
-.courses-left, .courses-right{
+.courses-left, .courses-right, .contact-left, .contact-right{
 flex-basis: 50%;
 }
 
@@ -264,12 +264,82 @@ flex-basis: 50%;
     margin: 30px 0;
 }
 
-
-/******************** Contact ************************/
+.btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box .btn{
+    flex-basis: 48%;
+}
 
 /******************** Footer *************************/
+#footer{
+    margin: 30px 0 ;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.footer-left{
+    flex-basis: 30%;
+  
+}
+.footer-right{
+    flex-basis: 70%;
+    margin-top: 25px;
+  
+}
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link-title h4{
+    margin-bottom: 15px;
+    color: var(--color);
+
+}
+
+.copyright img{
+    display: block;
+    width: 200px;
+    margin: 40px 0;
+}
+
+.copyright small, .link-title small{
+    display: block;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.8;
+}
+
+
+
 
 /******************** Social Icons *******************/
+
+.social-icon{
+    position: fixed;
+    top: 35%;
+    left: 0;
+    z-index: 1;
+}
+.social-icon a{
+    display: block;
+    margin: 0 0 15px 20px;
+    cursor: pointer;
+    font-size: 25px
+}
+.social-icon a:hover{
+   transform: scale(1.5);
+}
+
 
 
 /******************** Responsive *********************/
